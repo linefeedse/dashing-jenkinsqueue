@@ -19,4 +19,5 @@ Make a jenkins.yml file in dashboard/config with this (example) contents:
 jenkins_uri: http://localhost:8080
 jenkins_user: username
 jenkins_password: passw0rd
+jenkins_tzoffset: +0
 ```
