@@ -11,7 +11,7 @@ JENKINS_AUTH = {
   'password' => config['jenkins_password']
 }
 
-SCHEDULER.every '10s' do
+SCHEDULER.every '30s' do
 
   json = getFromJenkins(JENKINS_URI + 'queue/api/json')
 
